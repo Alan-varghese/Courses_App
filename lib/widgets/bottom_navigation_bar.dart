@@ -1,5 +1,5 @@
 
-// import 'package:courses/pages/profile_page.dart';
+import 'package:courses/pages/profile_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:march_app/utilities/colors.dart';
@@ -60,14 +60,14 @@ class _BottomNavigationBarWidgetState extends State<BottomNavigationBarWidget> {
           ),
         ),
         GestureDetector(
-          // onTap: () {
-          //   Navigator.push(
-          //     context,
-          //     MaterialPageRoute(
-          //       builder: (context) => ProfilePage(),
-          //     ),
-          //   );
-          // },
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => ProfilePage(),
+              ),
+            );
+          },
           child: SizedBox(
             width: 50,
             height: 50,
