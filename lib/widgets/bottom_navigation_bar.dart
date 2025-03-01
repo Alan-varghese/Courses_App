@@ -1,7 +1,7 @@
 
-import 'package:courses/pages/profile_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:march_app/pages/profile_page.dart';
 import 'package:march_app/utilities/colors.dart';
 import 'package:march_app/widgets/hexagon_custom_clipper.dart';
 
